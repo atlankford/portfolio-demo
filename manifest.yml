@@ -1,0 +1,6 @@
+---
+applications:
+#make sure to change the name and host attributes
+- name:      my-portfolio
+  buildpack: https://github.com/cloudfoundry-community/staticfile-buildpack.git
+  stack: cflinuxfs2
